@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo ipsa, voluptates eveniet inventore explicabo alias temporibus sapiente esse, soluta tempora laborum? Eos eum veniam magni cumque dolore aut perferendis!</h1>
+    <p>My Name is <%= name %></p>
+
+   <% if (name === 'DEJI') { %>
+    <h1>Haffa Deji</h1>
+   <% } else { %>
+        <h1>Kilowa</h1>
+    <% } %>    
+
+    <% students.forEach(student => { %>
+      <p>My name is <%= student %></p>
+    <% }) %>
+
+
+  
+</body>
+</html>
