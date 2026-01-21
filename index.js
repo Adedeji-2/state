@@ -12,6 +12,7 @@ const state = [
     { id: 6, state: 'Anambra', capital: 'awka',Motto:'Light of the Nation',Governor:' Charles Chukwuma Soludo',population:'4.18 million'},
     { id: 7, state: 'River', capital: 'port harcourt',Motto:'Treasure base of the NationTreasure base of the nation',Governor:'Siminalayi Fubara',population:'7.4 million'},
     { id: 8, state: 'Kano', capital: '',Motto:'Centre of Commerce',Governor:'Abba kabir Yusuf',population:'20 million'},
+    { id: 8, state: 'Kano', capital: '',Motto:'Centre of Commerce',Governor:'Abba kabir Yusuf',population:'20 million'},
 ]
 
 app.get('/state',(req,res)=>{
